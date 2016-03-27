@@ -54,6 +54,8 @@ $(function(){
                         console.log(data);
                     }).on("liqpay.ready", function (data) {
                     }).on("liqpay.close", function (data) {
+                        window.location = "/";
+                        alert("Оплата успішна!");
                     });
                 }
             });
