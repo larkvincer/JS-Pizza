@@ -1,12 +1,13 @@
 {
-  "name": "Pizza",
+  "name": "Pizza-cart",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "grunt watch"
   },
-  "author": "",
+  "author": "Pavlo Kuziv",
   "license": "ISC",
   "dependencies": {
     "basil.js": "^0.4.3",
@@ -18,5 +19,8 @@
     "grunt-browserify": "^4.0.1",
     "grunt-contrib-watch": "^0.6.1",
     "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "grunt-cli": "^1.2.0"
   }
 }
